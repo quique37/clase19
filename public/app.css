@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  li{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    font-size: 20px;
+    color: pink;
+  }
+  
+  header {
+    display: flex;
+    position: fixed;
+    padding: 15px 10px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  #video-trailer video {
+    width: 100%;
+  }
+  
